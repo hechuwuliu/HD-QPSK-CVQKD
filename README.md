@@ -3,6 +3,8 @@ Hello! Here are MATLAB-based code packages with functions for calculating the se
 
 The preprint that introduces this protocol is given on arXiv with Num. 2104.11152.
 
+Code 1 and Code 2 are two code packages based on this protocol. They are alternative choices if you want to simulate this protocol.
+
 # Introduction of Code 1
 There is one controller and nine functions:
 
