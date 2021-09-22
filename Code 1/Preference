@@ -1,1 +1,6 @@
+This code package usually works quickly.
+It can work well when the transmission distance is short.
+Note that S_3 function governs the production of the primal density matrix.
+When transmission distance is long, we suggest choosing ''maximize(lambda_min(Q))'' as the object function in S_3.
 
+Don't worry when you find the result here is not good. Please go and see the code package ''code 2''.
