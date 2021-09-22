@@ -77,22 +77,22 @@ This is a function to do the step 1 (primal problem).
 
 This is a function to gain the parameter eps used in dual problem.
 
--> Function - S_5.m
+-> Function - G_perturb_deg.m
 
-This is a function to calculate \Del\rho, which is the solution of the primal problem in the step 1.
+This function is used to calculte the hermitian conjugate of the perturbed G.
 
--> Function - S_6.m
+-> Function - G_perturb.m
 
-This is a function to search the parameter \lambda that makes the key rate minimum.
+This function is used to calculte the perturbed G.
 
--> Function - S_7.m
+-> Function - max_gamma_y.m
 
 This is a function to solve the dual problem in step 2.
 
--> Function - S_8.m
+-> Function - rel_ent.m
+
+This is a function to calcualte the relative entropy of the inputs.
+
+-> Function - error_correction.m
 
 This is a function to calculate the error correction for each quadrature.
-
--> Function - abstractep.m
-
-This is a function to gain the parameter ep2 used in dual problem.
