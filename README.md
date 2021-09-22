@@ -45,3 +45,54 @@ This is a function to calculate the error correction for each quadrature.
 -> Function - abstractep.m
 
 This is a function to gain the parameter ep2 used in dual problem.
+
+# Introduction of Code 2
+There is one controller and eleven functions:
+
+-> Controller - protocol_simulation.m
+
+This is a script with the key rate as the final result. It sets the parameters and controls other functions.
+
+-> Function - K_pq_new.m
+
+This is a function to generate Kraus operators in the key rate formula.
+
+-> Function - Gamma.m
+
+This is a function to calculate the constraint matrices.
+
+-> Function - gamma_exp.m
+
+This is a function to calculate the value of each constraint.
+
+-> Function - search_rho0.m
+
+This is a function to generate a primal density matrix \rho_{AB} under the constraints.
+
+-> Function - algorithm1.m
+
+This is a function to do the step 1 (primal problem).
+
+-> Function - abstractep.m
+
+This is a function to gain the parameter eps used in dual problem.
+
+-> Function - S_5.m
+
+This is a function to calculate \Del\rho, which is the solution of the primal problem in the step 1.
+
+-> Function - S_6.m
+
+This is a function to search the parameter \lambda that makes the key rate minimum.
+
+-> Function - S_7.m
+
+This is a function to solve the dual problem in step 2.
+
+-> Function - S_8.m
+
+This is a function to calculate the error correction for each quadrature.
+
+-> Function - abstractep.m
+
+This is a function to gain the parameter ep2 used in dual problem.
