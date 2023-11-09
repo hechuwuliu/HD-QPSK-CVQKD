@@ -1,7 +1,7 @@
 # HD-QPSK-CVQKD
 Hello! Here are MATLAB-based code packages with functions for calculating the secret key rate when excuting the homodyne detection quadrature phase shift keying continuous-variable quantum key distribution protocol.
 
-The preprint that introduces this protocol is given on arXiv with Num. 2104.11152.
+The preprint that introduces this protocol is given on PRX Quantum 2, 040334 (arXiv with Num. 2104.11152).
 
 Code 1 and Code 2 are two code packages based on this protocol. They are alternative choices if you want to simulate this protocol.
 
